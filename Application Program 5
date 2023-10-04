@@ -96,3 +96,9 @@ int main() {
 
     return 0;
 }
+ALGORITHM:
+FORD-FULKERSON METHOD (G, s, t)
+ 1. Initialize flow f to 0
+ 2. while there exists an augmenting path p
+ 3. do argument flow f along p
+ 4. Return f
